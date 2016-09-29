@@ -1,0 +1,23 @@
+name: Model example
+id: example
+description: A model example
+children:
+    -
+        name: k
+        id: k
+        value: 1e-7
+        perturbation: 0.2
+        units: "cm2"
+    -
+        name: Temperature
+        id: temperature
+        selection: 1
+        options:
+            -
+                name: Celcius
+                value: 100
+                units: °C
+            -
+                name: Kelvin
+                value: 300
+                units: K
